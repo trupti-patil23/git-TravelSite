@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------------------   
+    Added selectors for Hero section.(Travel site Slogan,main Logo)
+  ---------------------------------------------------------------------------*/
+.hero {
+    display: flex;
+    justify-content: right;
+    gap: 8.5rem;
+    width: 1280px;
+    height: 470px;
+    background-color: var(--orange-shade1-color);
+}
+
+.hero__slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.hero__title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--blue-shade1-color);
+    width: 31rem;
+
+}
+
+.hero__subtitle {
+    font-size: small;
+    color: var(--blue-shade1-color);
+    width: 31rem;
+}
+
+.hero__button {
+    background-color: var(--brown-color);
+    width: 9.5rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    border: none;
+    color: var(--white-color);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+
+.hero__logo {
+    margin: 3rem 4rem 4rem 4rem;
+}
+
+.hero__image {
+    height: 350px;
+}

@@ -10,15 +10,11 @@
 body {
   font-family: Verdana;
 
-  --header-background-color: #FFFFFF;
-  --header-logo-color: #335576;
-
-  --footer-title-color: #335576;
-  --footer-subtitle-color: #DB7A4E;
-  --footer-background-color: #FEFAF5;
-
-  --text-decoration-color: #DB7A4E;
-  --heading-title-color: #FFF;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --brown-color: #DB7A4E;
+  --blue-shade1-color: #335576;
+  --orange-shade1-color: #FEFAF5;
 }
 
 /*-----------------------------------------------------------------------------
@@ -26,18 +22,18 @@ Added common selectors for tags at class level for extra styling
 -------------------------------------------------------------------------------*/
 #navigation a {
   text-decoration: none;
-  color: black;
+  color: var(--black-color);
 }
 
 #navigation a:hover {
   text-decoration-line: underline;
-  text-decoration-color: var(--text-decoration-color);
+  text-decoration-color: var(--brown-color);
   text-underline-offset: 0.5rem;
   text-decoration-thickness: 2px;
 }
 
 #footer-emailId a {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 /*---------------------------------------------------------------------------   
@@ -48,7 +44,7 @@ Added common selectors for tags at class level for extra styling
   justify-content: space-between;
   width: 1280PX;
   padding: 1rem 5rem;
-  background-color: var(--header-background-color);
+  background-color: var(--white-color);
 }
 
 .header__navigation-list {
@@ -64,7 +60,7 @@ Added common selectors for tags at class level for extra styling
 
 .header__logo {
   text-decoration: none;
-  color: var(--header-logo-color);
+  color: var(--blue-shade1-color);
   font-weight: bolder;
   font-size: 1.1rem;
 }
@@ -77,7 +73,7 @@ Added common selectors for tags at class level for extra styling
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background-color: var(--footer-background-color);
+  background-color: var(--orange-shade1-color);
   width: 1280PX;
   height: 100%;
   padding: 1rem 0;
@@ -85,19 +81,19 @@ Added common selectors for tags at class level for extra styling
 
 .footer__title {
   padding-bottom: 1.3rem;
-  color: var(--footer-title-color);
+  color: var(--blue-shade1-color);
   font-size: 1.3rem;
   font-weight: bold;
 }
 
 .footer__subtitle {
   padding-bottom: 0.8rem;
-  color: var(--footer-subtitle-color);
+  color: var(--brown-color);
   font-size: xx-small;
 }
 
 .footer__info {
-  color: var(--footer-title-color);
+  color: var(--blue-shade1-color);
   font-size: 0.9rem;
 }
 

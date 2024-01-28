@@ -18,8 +18,7 @@
     width: fit-content;
     font-size: 4.3rem;
     font-weight: bold;
-
-    color: var(--heading-title-color);
+    color: var(--white-color);
 }
 
 .destination__cards-container {
@@ -35,11 +34,11 @@
     height: 22rem;
     margin: 1rem;
     border-radius: 0.5rem;
-    background-color: #FFF;
+    background-color: var(--white-color);
 }
 
 .destination__card:hover {
-    border: 3px groove #DB7A4E;
+    border: 3px groove var(--brown-color);
 }
 
 .destination__list {
@@ -52,7 +51,7 @@
     height: 3rem;
     text-align: center;
     font-size: 1rem;
-    background-color: #FEFAF5;
+    background-color: var(--orange-shade1-color);
     margin: 0.5rem 0.5rem;
 }
 
@@ -67,5 +66,5 @@
     font-weight: bold;
     margin: 0 0.5rem 1rem 0.5rem;
     padding-bottom: 2.2rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--black-color);
 }

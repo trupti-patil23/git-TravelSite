@@ -5,9 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site</title>
+
+    <!-- Linking to the global.css stylesheet -->
+    <link rel="stylesheet" href="./css/global.css">
+
+    <!-- Linking to the main.css stylesheet -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+
+    <!--Added header Section:Travel Site logo,Navigation Bar(Home,Hawaii,Iceland,Greece)-->
+    <header>
+        <div class="header">
+            <div>
+                <a class="header__logo" href="../index.html">
+                    Travel Site
+                </a>
+            </div>
+
+            <nav id="navigation" class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="../pages/hawaii.html">Hawaii</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="../pages/iceland.html">Iceland</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="../pages/greece.html">Greece</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Added "main" for Hero and Recommendations section-->
+    <main>
+
+        <!--Added Hero section: For Travel site main logo, Slogan, "Get Started" button-->
+        <section>
+            <div class="hero">
+                <!--For Travel Site Slogan : Title, Subtitle, "Get Started" button -->
+                <div class="hero__slogan">
+                    <div class="hero__title">
+                        <p>Travelling Comes With Endless Discoveries</p>
+                    </div>
+
+                    <div class="hero__subtitle">
+                        <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.
+                        </p>
+                    </div>
+
+                    <div class="hero__button">
+                        <input class="hero__button" type="button" value="Get Started">
+
+                    </div>
+                </div>
+
+                <!--FOr Travelsite Logo-->
+                <div class="hero__logo">
+                    <img class="hero__image" src="./assets/images/hero.png" />
+                </div>
+            </div>
+        </section>
+
+        <!--Added Recommendations section: for adding 3 cards for each destination(Hawaii,Greece,Iceland)-->
+        <section class="recommendations">
+
+        </section>
+
+    </main>
+
+    <!--Adding Footer Section : Contact, Hours, Social  -->
+    <footer>
+        <div class="footer">
+
+            <div id="footer-emailId" class="footer__contacts">
+                <p class="footer__title">Contact</p>
+                <p class="footer__subtitle">EMAIL</p>
+                <a href="mailto:info@travelsite.com">
+                    <p class="footer__info">info@travelsite.com</p>
+                </a>
+            </div>
+
+            <div>
+                <p class="footer__title">Hours</p>
+                <div class="footer__hours-details">
+                    <div>
+                        <p class="footer__subtitle">MONDAY - FRIDAY</p>
+                        <p class="footer__info">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div>
+                        <p class="footer__subtitle">SATURDAY</p>
+                        <p class="footer__info">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div>
+                        <p class="footer__subtitle">SUNDAY</p>
+                        <p class="footer__info">Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__social">
+                <p class="footer__title">Social</p>
+                <div class="footer_social-details">
+                    <a href="https://www.instagram.com/">
+                        <img src="../assets/icons/icon-instagram.png" alt="instagram" width="20rem">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img src="../assets/icons/icon-facebook.png" alt="facebook" width="12rem" height="22rem">
+                    </a>
+                    <a href="https://twitter.com/">
+                        <img src="../assets/icons/icon-twitter.png" alt="twitter" width="25rem">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 
