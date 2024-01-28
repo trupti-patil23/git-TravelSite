@@ -1,0 +1,126 @@
+/*---------------------------------------------------------------------------   
+    Added default properties for the site 
+  ---------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+
+  --header-background-color: #FFFFFF;
+  --header-logo-color: #335576;
+
+  --footer-title-color: #335576;
+  --footer-subtitle-color: #DB7A4E;
+  --footer-background-color: #FEFAF5;
+
+  --text-decoration-color: #DB7A4E;
+  --heading-title-color: #FFF;
+}
+
+/*-----------------------------------------------------------------------------
+Added common selectors for tags at class level for extra styling
+-------------------------------------------------------------------------------*/
+#navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+#navigation a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: var(--text-decoration-color);
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 2px;
+}
+
+#footer-emailId a {
+  text-decoration: none;  
+}
+
+/*---------------------------------------------------------------------------   
+    Added selectors for Header and Navigation Bar
+---------------------------------------------------------------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1280PX;
+  padding: 1rem 5rem;
+  background-color: var(--header-background-color);
+}
+
+.header__navigation-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.header__navigation-item {
+  width: 4rem;
+  font-size: 0.9rem;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: var(--header-logo-color);
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+/*---------------------------------------------------------------------------   
+    Added selectors for Footer
+---------------------------------------------------------------------------*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--footer-background-color);
+  width: 1280PX;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.footer__title {
+  padding-bottom: 1.3rem;
+  color: var(--footer-title-color);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.footer__subtitle {
+  padding-bottom: 0.8rem;
+  color: var(--footer-subtitle-color);
+  font-size: xx-small;
+}
+
+.footer__info {
+  color: var(--footer-title-color);
+  font-size: 0.9rem;
+}
+
+.footer__contacts {
+  margin-left: 6rem;
+  padding: 2rem;
+}
+
+.footer__hours-details {
+  display: flex;
+  justify-content: left;
+  width: 30rem;
+  gap: 2rem;
+}
+
+.footer__social {
+  margin-right: 5rem;
+}
+
+.footer_social-details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 10rem;
+  padding-top: 1rem;
+}

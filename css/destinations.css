@@ -1,0 +1,71 @@
+/*---------------------------------------------------------------------------   
+    Adding selectors for Main destination Page.(Hawaii, Iceland, Greece)
+  ---------------------------------------------------------------------------*/
+.destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 650px;
+    width: 1280px;
+    background-image: url('../assets/images/hawaii.jpg');
+    background-size: cover;
+    background-position: 1280px 1260px;
+}
+
+.destination__title {
+    padding-top: 3.5rem;
+    padding-left: 5rem;
+    width: fit-content;
+    font-size: 4.3rem;
+    font-weight: bold;
+
+    color: var(--heading-title-color);
+}
+
+.destination__cards-container {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    top: 2rem;
+    left: 13rem
+}
+
+.destination__card {
+    width: 15rem;
+    height: 22rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: #FFF;
+}
+
+.destination__card:hover {
+    border: 3px groove #DB7A4E;
+}
+
+.destination__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.destination__list-item {
+    height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #FEFAF5;
+    margin: 0.5rem 0.5rem;
+}
+
+.destination__list-li {
+    margin-top: 0.7rem;
+}
+
+.destination__list-heading {
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0.5rem 1rem 0.5rem;
+    padding-bottom: 2.2rem;
+    border-bottom: 2px solid black;
+}
