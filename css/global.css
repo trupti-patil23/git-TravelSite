@@ -45,6 +45,8 @@ Added common selectors for tags at class level for extra styling
   width: 1280PX;
   padding: 1rem 5rem;
   background-color: var(--white-color);
+  position: fixed;
+  top: 0;
 }
 
 .header__navigation-list {
@@ -119,4 +121,17 @@ Added common selectors for tags at class level for extra styling
   gap: 2rem;
   width: 10rem;
   padding-top: 1rem;
+}
+
+.footer__instagram {
+  width: 1.5rem;
+}
+
+.footer__facebook {
+  width: 0.7rem;
+  height: 1.5rem;
+}
+
+.footer__twitter {
+  width: 1.7rem;
 }

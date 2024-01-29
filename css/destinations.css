@@ -38,7 +38,8 @@
 }
 
 .destination__card:hover {
-    border: 3px groove var(--brown-color);
+    border: 3px groove var(--white-color);
+    box-shadow: 0px 1px 1px var(--black-color);
 }
 
 .destination__list {
