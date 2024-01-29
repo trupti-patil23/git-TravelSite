@@ -7,13 +7,25 @@
     justify-content: flex-start;
     height: 650px;
     width: 1280px;
-    background-image: url('../assets/images/hawaii.jpg');
     background-size: cover;
     background-position: 1280px 1260px;
 }
 
+.destination__hawaii-image {
+    background-image: url('../assets/images/hawaii.jpg');
+}
+
+.destination__iceland-image {
+    background-image: url('../assets/images/iceland.jpg');
+}
+
+.destination__greece-image {
+    background-image: url('../assets/images/greece.jpg');
+}
+
 .destination__title {
     padding-top: 3.5rem;
+    margin-top: 2.5rem;
     padding-left: 5rem;
     width: fit-content;
     font-size: 4.3rem;

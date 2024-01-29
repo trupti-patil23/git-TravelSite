@@ -6,7 +6,8 @@
     justify-content: right;
     gap: 8.5rem;
     width: 1280px;
-    height: 470px;
+    height: 480px;
+    margin-top: 3.3rem;
     background-color: var(--orange-shade1-color);
 }
 
@@ -73,6 +74,7 @@
     font-weight: bold;
     margin-left: 7rem;
     width: fit-content;
+    padding-bottom: 1.5rem;
 }
 
 .recommendations__card-container {
@@ -85,8 +87,7 @@
 }
 
 .recommendations__card {
-    display: inline-flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .recommendations__image:hover {
@@ -98,10 +99,11 @@
     color: var(--white-color);
     font-size: 1.3rem;
     font-weight: bold;
-    position: relative;
     width: fit-content;
-    top: 90%;
-    left: 60%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 1.5rem;
 }
 
 .recommendations__image {
